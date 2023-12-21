@@ -1,0 +1,63 @@
+
+body{
+  background-color: rgb(102, 11, 11);
+}
+h2{
+
+  padding-right: 695px;
+  padding-top: 100px;
+  padding-left: 600px;
+  font-size: 50px;
+  font-weight:200px;
+  color :rgb(0, 0, 0);
+}
+
+
+
+.color
+{
+  background-color: black;
+  height:200px;
+  width:200px;
+  margin-left: 600px;
+  display:flex;
+  border:20px solid black;
+  border-radius: 40px;
+}
+.red
+{
+  background-color: red;
+  display: block;
+}
+.green
+{
+  background-color: green;
+  margin-left: 900px;
+  margin-top: -240px;
+  
+}
+.blue
+{
+  background-color: blue;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+.yellow
+{
+  background-color: yellow;
+  margin-left: 900px;
+  margin-top: -240px;
+  z-index: 1;
+  
+}
+
+.pressed{
+  background-color: aliceblue;
+  border-color:aliceblue;
+  z-index:100;
+
+}
+.game-over{
+  background-color:black;
+  opacity:0.8;
+}
